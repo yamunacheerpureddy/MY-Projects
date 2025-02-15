@@ -1,0 +1,8 @@
+kaggle-->search ipl dataset --> download --->extract
+create database ---> right click ---> table data import wizard --> select file --> next --> next --> finish
+
+1.  find total no.of matches played
+2.  find total no.of winning matches by each team
+3.  find total no.of matches by venue wise
+4. find total no. of winning matches by each team
+ season wise 
