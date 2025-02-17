@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form </title>
+          <style>
+        body{
+             background-color:aliceblue;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: 100% 100%;
+             display: flex;
+             justify-content: center;
+             text-align: center;
+             justify-content: center;
+             margin-bottom: 250px;
+
+                     }
+        .container {
+            box-sizing:content-box;
+            padding: 30px;
+            border-radius: 150px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+         label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ece6e6;
+        }
+        .radio-group {
+            margin-top: 5px;
+        }
+        .radio-group label {
+            font-weight: normal;
+            display: block;
+        }
+        button {
+            padding: 15px;
+            margin-top: 5px;
+            background:lightsteelblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: large;
+            margin-left: 5px;
+    
+        }
+        button:hover {
+            background: gray;
+
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <h2>Yamuna Reddy Job Reg Form</h2>
+                <h3>Are you Looking for a Job?</h3>
+                <p>Register Free & start applying for thousands of job interviews & Recruitment drives</p>
+                <label for="name">Name*</label>
+                <input type="text" placeholder="name" name="name" id="name" required />
+                <label for="email">Email*</label>
+                <input type="email" placeholder="Enter ur email" name="email" id="email" required />
+                <label for="password">Password*</label>
+                <input type="password" placeholder="Enter password" id="password" name="password" required />
+                <label for="Mobile">Mobile*</label>
+                <input type="number" placeholder=" Enter phno" id="number" name="number" required/>
+                <label for="city">Current city</label>
+                <input type="text" placeholder="Current city*" id="cc" name="cc" required />
+                <label for ="Qualification" >Qualification*</label>
+                <input type="text" placeholder="Qualification" id="qs" name="qs" required/>
+                <label for="resume">Upload Resume *</label>
+                <input type="file" id="resume" accept=".pdf,.doc,.docx,.txt" required>
+                    <br><button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </body>
